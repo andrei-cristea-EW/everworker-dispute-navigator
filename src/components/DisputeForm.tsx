@@ -56,7 +56,7 @@ const DisputeForm = () => {
   const [isValidating, setIsValidating] = useState(false);
   const [isCheckingEligibility, setIsCheckingEligibility] = useState(false);
 
-  const totalSteps = 8; // Keep original validation steps count
+  const totalSteps = 4; // Keep original validation steps count
 
   // Add effect to watch for eligibility data changes
   useEffect(() => {
