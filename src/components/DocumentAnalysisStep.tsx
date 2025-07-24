@@ -30,7 +30,7 @@ export const DocumentAnalysisStep: React.FC<DocumentAnalysisStepProps> = ({
         <p className="text-gray-400">Review the AI analysis of your dispute case</p>
         <div className="flex justify-center mt-4">
           <Badge variant="outline" className="bg-blue-600 text-white border-blue-500">
-            Step {stepNumber} of {totalSteps}
+            Step {stepNumber} of 8
           </Badge>
         </div>
       </div>

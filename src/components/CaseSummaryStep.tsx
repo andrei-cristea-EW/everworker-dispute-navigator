@@ -139,7 +139,7 @@ export const CaseSummaryStep: React.FC<CaseSummaryStepProps> = ({
         <p className="text-gray-400">Review your case details and legal documentation</p>
         <div className="flex justify-center mt-4">
           <Badge variant="outline" className="bg-blue-600 text-white border-blue-500">
-            Step {stepNumber} of {totalSteps}
+            Step {stepNumber} of 8
           </Badge>
         </div>
       </div>

@@ -114,7 +114,7 @@ export const IdentityValidationStep: React.FC<ValidationStepProps> = ({
     <div className="space-y-6">
       <div className="text-center">
         <h3 className="text-2xl font-semibold text-white mb-2">
-          Step {stepNumber} of {totalSteps}: AI-Powered Identity Verification
+          Step {stepNumber} of 8: AI-Powered Identity Verification
         </h3>
         <p className="text-gray-400">
           Verify your identity with advanced AI validation powered by Everworker
@@ -442,7 +442,7 @@ export const FlightDataValidationStep: React.FC<ValidationStepProps & {
     <div className="space-y-6">
       <div className="text-center">
         <h3 className="text-2xl font-semibold text-white mb-2">
-          Step {stepNumber} of {totalSteps}: Flight & Booking Verification
+          Step {stepNumber} of 8: Flight & Booking Verification
         </h3>
         <p className="text-gray-400">Verify your flight details and booking information</p>
       </div>
@@ -935,7 +935,7 @@ export const ComplaintDetailsStep: React.FC<ValidationStepProps> = ({
     <div className="space-y-6">
       <div className="text-center">
         <h3 className="text-2xl font-semibold text-white mb-2">
-          Step {stepNumber} of {totalSteps}: Complaint Details
+          Step {stepNumber} of 8: Complaint Details
         </h3>
         <p className="text-gray-400">Describe your issue and select the appropriate category</p>
       </div>
@@ -1081,7 +1081,7 @@ export const DocumentUploadStep: React.FC<ValidationStepProps> = ({
     <div className="space-y-6">
       <div className="text-center">
         <h3 className="text-2xl font-semibold text-white mb-2">
-          Step {stepNumber} of {totalSteps}: Supporting Documents
+          Step {stepNumber} of 8: Supporting Documents
         </h3>
         <p className="text-gray-400">Upload supporting documents to strengthen your case</p>
       </div>
