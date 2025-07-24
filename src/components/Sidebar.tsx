@@ -88,7 +88,7 @@ const Sidebar: React.FC<SidebarProps> = ({ currentStep = 1, onStepClick }) => {
       <div className="mb-8">
         <div className="flex items-center gap-3 mb-6">
           <div className="bg-blue-600 rounded-lg p-2">
-            <span className="text-white font-bold text-sm">تكامل</span>
+            <span className="text-white font-bold text-sm">EW</span>
           </div>
           <div>
             <h1 className="text-xl font-semibold">AI Aviation Dispute Platform</h1>
